@@ -147,7 +147,10 @@ h6, .h6 {font-size: 0.615em; font-weight: 400 }
 
 
 
-
+.hello-world {
+  color:#fff;
+  background:rgba(0,0,0,0.5);
+}
 
 
 
