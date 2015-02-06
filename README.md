@@ -8,5 +8,6 @@ A boilerplate which adds 1.4kb of helper scripts adding functionality such as
 3. Images the can mimic background-size:cover; background-position:center center
 4. FullScreen containers
 5. Vertically center elements
+6. Stopping FOUC (flashes of unstyled content) and page yank
 
 [DEMO](https://rawgit.com/Paul-Browne/PBBP/master/index.html)
