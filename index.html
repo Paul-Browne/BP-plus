@@ -17,9 +17,7 @@
         <script src="js/compiled.js"></script>
     </head>
     <body>
-        <!--[if lt IE 8]>
-            <h1 class="center-text">YOUR BROWSER IS OLDER THAN JUSTIN BIEBER! <a href="https://www.google.com/chrome/browser/desktop/index.html">USE GOOGLE CHROME, IT'S FREE!</a></h1>
-        <![endif]-->
+        <!--[if lt IE 8]><h1 class="center-text">YOUR BROWSER IS OLDER THAN JUSTIN BIEBER! <a href="https://www.google.com/chrome/browser/desktop/index.html">USE GOOGLE CHROME, IT'S FREE!</a></h1><![endif]-->
         <script>
             /* avoiding FOUC */
             var a=document.getElementsByTagName("body")[0],b=document.createElement("div");a.appendChild(b),b.id="loader",b.className="loading";var c=document.getElementById("loader");window.onload=function(){c.className="loaded",setTimeout(function(){a.removeChild(c)},1e3)},window.onbeforeunload=function(){a.id="byebye"};
