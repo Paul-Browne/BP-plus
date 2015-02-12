@@ -15,7 +15,8 @@ Also includes an iconfont compiled from [icomoon](https://icomoon.io/), Open San
 
 [DEMO](https://rawgit.com/Paul-Browne/PBBP/master/index.html)
 
-#### 1. Responsive Image Replacement [repo](https://github.com/Paul-Browne/responsive-images.js)
+#### 1. Responsive Image Replacement
+[link](https://github.com/Paul-Browne/responsive-images.js)
 
 A simple script that swaps out images depending on the width of the image's *container*.
 You can specify as many, or as few breakpoints as you like. The placeholder image should be of sufficient size ie. 1024x768, but of low quality ~ 20kb. Having a placeholder image is optional.
@@ -85,8 +86,8 @@ A simple script that allows you to vertically and horizontally center any elemen
 
 To only vertically center the element use the class `vmid` instead. The container should have a height specified.
 
-#### 5. Scalable Typography [repo](https://github.com/Paul-Browne/typeScale)
-
+#### 5. Scalable Typography
+[link](https://github.com/Paul-Browne/typeScale)
 A simple script that tweeks the base font size and line-height depending on the width of the viewport (browser window)
 
 #### 6. FOUC and Page Yank
