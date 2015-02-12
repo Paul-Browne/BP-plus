@@ -52,7 +52,7 @@ data-src2x = "<400:i/world-small@2x.jpg,
 
 #### 2. Image Cover
 
-A simple script that mimics `background-size:cover; background-position:center center;` on `<img>` elements.
+[A simple script](http://paulbrowne.fi/2015/01/31/background-image-properties-inline-images) that mimics `background-size:cover; background-position:center center;` on `<img>` elements.
 Just wrap your `<img>` in a container with the class `icovr` like so;
 
 ```html
