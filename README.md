@@ -93,4 +93,4 @@ To only vertically center the element use the class `vmid` instead. The containe
 
 #### 6. FOUC and Page Yank
 
-A simple script that hides the page whilst its loading, then has it fade in when ready and fade out when navigated away from or refreshed.
+[A simple script](https://github.com/Paul-Browne/FOUC-and-Page-Yank) that hides the page whilst its loading, then has it fade in when ready and fade out when navigated away from or refreshed.
