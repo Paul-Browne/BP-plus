@@ -15,11 +15,10 @@ Also includes an iconfont
 
 [DEMO](https://rawgit.com/Paul-Browne/PBBP/master/index.html)
 
-
-#### 1. Responsive Image Replacement
+#### 1. Responsive Image Replacement [repo](https://github.com/Paul-Browne/responsive-images.js)
 
 A simple script that swaps out images depending on the width of the image's *container*.
-You can specify as many, or as few breakpoints as you like. The placeholder image should be of sufficient size ie. 1024x768, but of low quality ~ 20kb in size. Having a placeholder image is optional.
+You can specify as many, or as few breakpoints as you like. The placeholder image should be of sufficient size ie. 1024x768, but of low quality ~ 20kb. Having a placeholder image is optional.
 
 ```html
 <div class="container"> // optional, could just be the <body>
@@ -86,7 +85,7 @@ A simple script that allows you to vertically and horizontally center any elemen
 
 To only vertically center the element use the class `vmid` instead. The container should have a height specified.
 
-#### 5. Scalable Typography
+#### 5. Scalable Typography [repo](https://github.com/Paul-Browne/typeScale)
 
 A simple script that tweeks the base font size and line-height depending on the width of the viewport (browser window)
 
