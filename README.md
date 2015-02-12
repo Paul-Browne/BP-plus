@@ -11,4 +11,6 @@ Built on top of the popular HTML5 Boilerplate with 1.4kb of helper scripts addin
 5. Vertically centered elements
 6. Stopping FOUC (flashes of unstyled content) and page yank
 
+Also includes an iconfont
+
 [DEMO](https://rawgit.com/Paul-Browne/PBBP/master/index.html)
