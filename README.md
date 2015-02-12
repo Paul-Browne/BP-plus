@@ -73,6 +73,8 @@ A simple script that allows you to add a container that will have the same dimen
 </div>
 ```
 
+Use the class `fullheight` if you want to create a container with only the same height as the viewport.
+
 #### 4. Middlize
 
 A simple script that allows you to vertically and horizontally center any element within It's container.
