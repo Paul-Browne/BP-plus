@@ -65,7 +65,7 @@ Will also work with responsive images. The container should have a height specif
 
 #### 3. Full Screen Containers
 
-A simple script that allows you to add a container that will have the same dimensions (height and width) as the viewport.
+[A simple script](http://paulbrowne.fi/2015/01/22/full-width-full-height-full-screen-helper-plugin) that allows you to add a container that will have the same dimensions (height and width) as the viewport.
 
 ```html
 <div class="fullscreen">
