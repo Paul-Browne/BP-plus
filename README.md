@@ -11,7 +11,7 @@ Built on top of the popular HTML5 Boilerplate with 1.4kb of helper scripts addin
 5. Scalable typography
 6. Stopping FOUC (flashes of unstyled content) and page yank
 
-Also includes an iconfont
+Also includes an iconfont compiled from [icomoon](https://icomoon.io/), Open Sans and Libre Baskerville from [Google fonts](https://www.google.com/fonts#UsePlace:use/Collection:Libre+Baskerville:400italic|Open+Sans:400,600) 
 
 [DEMO](https://rawgit.com/Paul-Browne/PBBP/master/index.html)
 
