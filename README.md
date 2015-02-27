@@ -41,7 +41,7 @@ So, in the above example (assuming the `container` was the full screen);
 
 #### 2. Image Cover
 
-[A simple script](https://github.com/Paul-Browne/imageCover) that mimics `background-size:cover; background-position:center center;` on `<img>` elements.
+[A simple script](https://github.com/Paul-Browne/imageCover.js) that mimics `background-size:cover; background-position:center center;` on `<img>` elements.
 Just wrap your `<img>` in a container with the class `icovr` like so;
 
 ```html
@@ -54,7 +54,7 @@ Will also work with responsive images. The container should have a height specif
 
 #### 3. Full Screen Containers
 
-[A simple script](http://paulbrowne.fi/2015/01/22/full-width-full-height-full-screen-helper-plugin) that allows you to add a container that will have the same dimensions (height and width) as the viewport.
+[A simple script](https://github.com/Paul-Browne/fullScreen.js) that allows you to add a container that will have the same dimensions (height and width) as the viewport.
 
 ```html
 <div class="fullscreen">
