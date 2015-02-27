@@ -12,7 +12,7 @@ responsive image replacement, better &lt;img&gt; control, full screen containers
 You can specify as many, or as few breakpoints as you like. The placeholder image should be of sufficient size ie. 1024x768, but of low quality ~ 20kb. Having a placeholder image is optional.
 
 ```html
-<div class="container"> // optional, could just be the <body>
+<div class="container"> <!-- optional, could just be the <body> -->
   <img src = "i/world-placeholder.jpg" class="foo" id="bar" alt=""
   data-src = "<400:i/world-small.jpg,
               <800:i/world-medium.jpg,
