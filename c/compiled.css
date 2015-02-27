@@ -90,6 +90,9 @@ img.valign{margin-bottom:0.4em;margin-top:0.4em}
 .invisible{visibility:hidden}
 .fullwidth,.fullscreen{width:100%}
 .fullscreen,.fullheight,.middlize,.vmid,.icovr{overflow:hidden;position:relative;display:block}
+.vmid,.middlize{margin-top:0;margin-bottom:0}
+.middlize{margin:0 auto}
+.icovr>img{position:absolute}
 
 /* ===== PLACEHOLDER STYLES ===== */
 /* ============================== */
