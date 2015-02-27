@@ -24,6 +24,20 @@ You can specify as many, or as few breakpoints as you like. The placeholder imag
 
 So, in the above example (assuming the `container` was the full screen);
 
+|Device|screensize|pixel ratio|image|
+|------|----------|-----------|-----|
+|generic laptop|1366px|1|world-huge|
+|fullHD desktop|1920|1|world-massive|
+|samsung galaxy s2 - landscape|533|1.5|world-medium|
+|samsung galaxy s3 - landscape|640|2|world-huge|
+|samsung galaxy s4 - landscape|640|3|world-massive|
+|iphone 3GS - portrait|320|1|world-small|
+|iphone 4S - portrait|320|2|world-medium|
+|ipad 1st/2nd gen - portrait|768|1|world-medium|
+|ipad 3rd/4th gen - portrait|768|2|world-huge|
+|ipad 1st/2nd gen - landscape|1024|1|world-large|
+|ipad 3rd/4th gen - landscape|1024|2|world-massive|
+
 On a regular laptop - screen size = `1366px`, device pixel ratio = `1`. Image displayed = `world-huge`.
 On a Samsung galaxy S4 (landscape) - screen size = `640px`, device pixel ratio = `3`. Image displayed = `world-massive`.
 On an iphone 3GS (portrait) - screen size = `320px`, device pixel ratio = `1`. Image displayed = `world-small`.
