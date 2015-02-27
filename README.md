@@ -2,7 +2,7 @@
 
 #####Ok. So Whats the plus?
 
-responsive image replacement, better &lt;img&gt; control, full screen containers, vertically centered elements, scalable typography, stopping FOUC and page yank, a simple grid system and better fonts (inc an icon font)
+responsive image replacement, better &lt;img&gt; control, full screen containers, vertically centered elements, scalable typography, stopping FOUC and page yank, a simple grid system and better fonts (inc an icon font).
 
 [DEMO](https://rawgit.com/Paul-Browne/PBBP/master/index.html)
 
