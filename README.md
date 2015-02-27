@@ -8,7 +8,7 @@ Responsive image replacement, better &lt;img&gt; control, full screen containers
 
 #### 1. Responsive Image Replacement
 
-[A simple script](https://github.com/Paul-Browne/responsive-images.js) that swaps out images depending on the width of the image's *container* and the device's pixel ratio.
+[A simple script](https://github.com/Paul-Browne/ResImg.js) that swaps out images depending on the width of the image's *container* and the device's pixel ratio.
 You can specify as many, or as few breakpoints as you like. The placeholder image should be of sufficient size ie. 1024x768, but of low quality ~ 20kb. Having a placeholder image is optional.
 
 ```html
@@ -41,7 +41,7 @@ So, in the above example (assuming the `container` was the full screen);
 
 #### 2. Image Cover
 
-[A simple script](http://paulbrowne.fi/2015/01/31/background-image-properties-inline-images) that mimics `background-size:cover; background-position:center center;` on `<img>` elements.
+[A simple script](https://github.com/Paul-Browne/imageCover) that mimics `background-size:cover; background-position:center center;` on `<img>` elements.
 Just wrap your `<img>` in a container with the class `icovr` like so;
 
 ```html
