@@ -38,12 +38,6 @@ So, in the above example (assuming the `container` was the full screen);
 |ipad 1st/2nd gen - landscape|1024|1|world-large|
 |ipad 3rd/4th gen - landscape|1024|2|world-massive|
 
-On a regular laptop - screen size = `1366px`, device pixel ratio = `1`. Image displayed = `world-huge`.
-On a Samsung galaxy S4 (landscape) - screen size = `640px`, device pixel ratio = `3`. Image displayed = `world-massive`.
-On an iphone 3GS (portrait) - screen size = `320px`, device pixel ratio = `1`. Image displayed = `world-small`.
-On an iphone 4S (portrait) - screen size = `320px`, device pixel ratio = `2`. Image displayed = `world-medium`.
-
-
 
 #### 2. Image Cover
 
