@@ -66,7 +66,7 @@ Use the class `fullheight` if you want to create a container with only the same 
 
 #### 4. Middlize
 
-[A simple script](http://paulbrowne.fi/2014/12/04/vertically-center-element) that allows you to vertically and horizontally center any element within It's container.
+[A simple script](https://github.com/Paul-Browne/Middlize.js) that allows you to vertically and horizontally center any element within It's container.
 
 ```html
 <div class="container">
