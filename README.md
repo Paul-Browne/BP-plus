@@ -12,7 +12,6 @@ When starting a new project I always find myself adding a few scripts and styles
 - **Stopping FOUC and page yank** - Gently fade the page in when rendered, and fade out when navigated away from. 
 - **A grid system** - An epicGrid system!
 - **Better fonts** - Open Sans and Libre Baskerville from Google fonts, as well as an icon font from icomoon.
-- **Custom resize events** - Better performance by limiting the resize event from only being fired once every quarter of a second, and only when the width is resized.
 
 ---
 
@@ -103,16 +102,6 @@ A slight adjustment is made to the baseline `font-size` and `line-height` to mak
 | 1200          | 17         | 1.55        |
 | 1600          | 17.666     | 1.6         |
 | 2000          | 18.333     | 1.65        |
-
----
-
-##### Stopping FOUC and page yank
-
----
-
-##### The Grid System
-
-[EpicGrid](https://github.com/Paul-Browne/epicGrid)
 
 ---
 
