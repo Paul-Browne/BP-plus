@@ -2,9 +2,8 @@
 
 
 ### Boilerplate +
-#####So Whats the plus?
 
-When starting a new project I always find myself adding a few scripts and styles which make my life easier. At a cost of just over `2kb` these additions enable the following;
+Built on top of the original [html5-boilerplate](https://github.com/h5bp/html5-boilerplate) **plus** a few scripts and styles which make life easier. At a cost of just over `2kb` these additions enable the following;
 
 - **Responsive image replacement** - swapping images depending on the image's container width and device's pixel ratio.
 
@@ -22,7 +21,6 @@ When starting a new project I always find myself adding a few scripts and styles
    
 - **Better fonts** - Open Sans and Libre Baskerville from Google fonts, as well as an icon font from icomoon.
    
-
 ---
 
 ##### Responsive Image Replacement
@@ -87,6 +85,8 @@ Add a container that will have the same dimensions (height and width) as the vie
 Use the class `fullheight` if you want to create a container with only the same height as the viewport.
 The classes `fullscreen` and `icovr` can be used on the same container.
 
+---
+
 ##### Middlize
 
 Vertically and horizontally center any element within It's container.
@@ -113,6 +113,16 @@ A slight adjustment is made to the baseline `font-size` and `line-height` to mak
 | 1600          | 17.666     | 1.6         |
 | 2000          | 18.333     | 1.65        |
 
+---
+
+##### Stopping FOUC (flashes of unstyled content) and page yank
+
+BP+ comes with a built in solution for fading the page in and out when loaded or navigated away from.
+
+---
+
+##### The Grid System
+[epicGrid](https://github.com/Paul-Browne/epicGrid) handles the layout.
 ---
 
 ##### This [DEMO](https://rawgit.com/Paul-Browne/BP-plus/master/index.html) shows all of the above in action
