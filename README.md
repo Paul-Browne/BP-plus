@@ -1,6 +1,5 @@
-![alt text](https://raw.githubusercontent.com/Paul-Browne/BP-plus/master/i/bpplus.jpg)
+## Boilerplate + 
 
-#### Boilerplate + 
 #####So Whats the plus?
 
 When starting a new project I always find myself adding a few scripts and styles which make my life easier. At a cost of just over `2kb` these additions enable the following;
