@@ -4,15 +4,15 @@
 
 When starting a new project I always find myself adding a few scripts which make my life easier. At a cost of just over `2kb` these scripts enable the following;
 
-1. Responsive image replacement - swapping images depending on the image's container width and device's pixel ratio.
-2. Better `<img>` control - Mimic `background-size:cover; background-position:center center;` for inline images.
-3. Fullscreen containers - Containers that take up the full screen, obviously!
-4. Vertically centered elements - Position an element vertically bang in the middle of the parent.
-5. Scalable typography - Small incremental changes to the base font size, making text more "comfortable" to read across all device sizes.
-6. Stopping FOUC and page yank - Gently fade the page in when rendered, and fade out when navigated away from.  
-7. A grid system - An epicGrid system!
-8. Nice fonts - Open Sans and Libre Baskerville from Google fonts, as well as an icon font from icomoon.
-9. Custom resize events - Better performance by limiting the resize event from only being fired once every quarter of a second, and only when the width is resized.
+- Responsive image replacement - swapping images depending on the image's container width and device's pixel ratio.
+- Better `<img>` control - Mimic `background-size:cover; background-position:center center;` for inline images.
+- Fullscreen containers - Containers that take up the full screen, obviously!
+- Vertically centered elements - Position an element vertically bang in the middle of the parent.
+- Scalable typography - Small incremental changes to the base font size, making text more "comfortable" to read across all device sizes.
+- Stopping FOUC and page yank - Gently fade the page in when rendered, and fade out when navigated away from.  
+- A grid system - An epicGrid system!
+- Nice fonts - Open Sans and Libre Baskerville from Google fonts, as well as an icon font from icomoon.
+- Custom resize events - Better performance by limiting the resize event from only being fired once every quarter of a second, and only when the width is resized.
 
 ---
 
@@ -80,8 +80,6 @@ The classes `fullscreen` and `icovr` can be used on the same container.
 
 ##### Middlize
 
----
-
 Vertically and horizontally center any element within It's container.
 
 ```html
@@ -94,4 +92,28 @@ To only vertically center the element use the class `vmid` instead. The containe
 
 ---
 
-Here's a [demo](https://rawgit.com/Paul-Browne/BP-plus/master/index.html) showing all of the above in action
+##### Scalable Typography
+
+A slight adjustment is made to the baseline `font-size` and `line-height` to make text more readable across all devices;
+
+| Viewport Width| font-size  | line-height |
+| ------------- |------------|-------------|
+| 400px         | 15.666px   | 1.45        |
+| 800           | 16.333     | 1.5         |
+| 1200          | 17         | 1.55        |
+| 1600          | 17.666     | 1.6         |
+| 2000          | 18.333     | 1.65        |
+
+---
+
+##### Stopping FOUC and page yank
+
+---
+
+##### The Grid System
+
+[EpicGrid](https://github.com/Paul-Browne/epicGrid)
+
+---
+
+##### This [DEMO](https://rawgit.com/Paul-Browne/BP-plus/master/index.html) shows all of the above in action
