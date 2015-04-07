@@ -1,4 +1,4 @@
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
+![alt text](https://raw.githubusercontent.com/Paul-Browne/BP-plus/master/i/bpplus.jpg)
 
 #### Boilerplate + 
 #####So Whats the plus?
