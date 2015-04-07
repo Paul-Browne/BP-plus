@@ -122,7 +122,9 @@ BP+ comes with a built in solution for fading the page in and out when loaded or
 ---
 
 ##### The Grid System
+
 [epicGrid](https://github.com/Paul-Browne/epicGrid) handles the layout.
+
 ---
 
 ##### This [DEMO](https://rawgit.com/Paul-Browne/BP-plus/master/index.html) shows all of the above in action
