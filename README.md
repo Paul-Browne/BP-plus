@@ -14,6 +14,8 @@ When starting a new project I always find myself adding a few scripts which make
 8. Nice fonts - Open Sans and Libre Baskerville from Google fonts, as well as an icon font from icomoon.
 9. Custom resize events - Better performance by limiting the resize event from only being fired once every quarter of a second, and only when the width is resized.
 
+---
+
 ##### Responsive Image Replacement
 
 Swap out images depending on the width of the image's *container* and the device's pixel ratio.
@@ -46,6 +48,7 @@ So, in the above example (assuming the `container` was the full screen);
 |ipad 1st/2nd gen - landscape|1024|1|world-large|
 |ipad 3rd/4th gen - landscape|1024|2|world-massive|
 
+---
 
 ##### Better `<img>` Control
 
@@ -59,6 +62,8 @@ Just wrap your `<img>` in a container with the class `icovr` like so;
 ```
 
 Will also work with responsive images. The container should have a height specified.
+
+---
 
 ##### Fullscreen Containers
 
@@ -75,6 +80,8 @@ The classes `fullscreen` and `icovr` can be used on the same container.
 
 ##### Middlize
 
+---
+
 Vertically and horizontally center any element within It's container.
 
 ```html
@@ -85,5 +92,6 @@ Vertically and horizontally center any element within It's container.
 
 To only vertically center the element use the class `vmid` instead. The container should have a height specified.
 
+---
 
-Here's a [demo](https://rawgit.com/Paul-Browne/BP-plus/master/index.html) illustrating all the above
+Here's a [demo](https://rawgit.com/Paul-Browne/BP-plus/master/index.html) showing all of the above in action
