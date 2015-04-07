@@ -34,7 +34,7 @@
         <!--[if lt IE 8]><h1 class="center-text">Using an outdated browser makes your computer unsafe. <a href="http://browsehappy.com/">Upgrade your browser</a></h1><![endif]-->
         
         <!-- avoiding FOUC -->
-        <script>var a=document.getElementsByTagName("body")[0],b=document.createElement("div");a.appendChild(b),b.id="loader",b.className="loading";var c=document.getElementById("loader");window.onload=function(){c.className="loaded",setTimeout(function(){a.removeChild(c)},1e3)},window.onbeforeunload=function(){a.id="byebye"};</script>
+        <script>!function(){var a=document.getElementsByTagName("body")[0],b=document.createElement("div");a.appendChild(b),b.id="loader",b.className="loading";var c=document.getElementById("loader");window.onload=function(){c.className="loaded",setTimeout(function(){a.removeChild(c)},1e3)},window.onbeforeunload=function(){a.id="byebye"}}();</script>
 
         <div class="fullscreen icovr">
             <img src = "i/world-placeholder.jpg"
