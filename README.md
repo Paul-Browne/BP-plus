@@ -1,4 +1,5 @@
-![alt text](https://raw.githubusercontent.com/Paul-Browne/BP-plus/master/i/bpplus.jpg)
+| |:![alt text](https://raw.githubusercontent.com/Paul-Browne/BP-plus/master/i/bpplus.jpg):| |
+|--|--|--|
 
 #### Boilerplate + 
 #####So Whats the plus?
