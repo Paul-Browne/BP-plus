@@ -18,7 +18,7 @@ When starting a new project I always find myself adding a few scripts and styles
    
 - **Stopping FOUC and page yank** - Gently fade the page in when rendered, and fade out when navigated away from. 
    
-- **A grid system** - An epicGrid system!
+- **A grid system** - An [epicGrid](https://github.com/Paul-Browne/epicGrid) system!
    
 - **Better fonts** - Open Sans and Libre Baskerville from Google fonts, as well as an icon font from icomoon.
    
