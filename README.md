@@ -2,13 +2,21 @@
 
 #####Ok. So Whats the plus?
 
-Responsive image replacement, better &lt;img&gt; control, full screen containers, vertically centered elements, scalable typography, stopping FOUC and page yank, a simple grid system and better fonts (inc an icon font).
+When starting a new project I always find myself adding a few scripts which make my life easier. At a cost of just over `2kb` these scripts enable the following;
 
-[DEMO](https://rawgit.com/Paul-Browne/PBBP/master/index.html)
+1. Responsive image replacement - swapping images depending on the image's container width and device's pixel ratio.
+2. Better `<img>` control - Mimic `background-size:cover; background-position:center center;` for inline images.
+3. Fullscreen containers - Containers that take up the full screen, obviously!
+4. Vertically centered elements - Position an element vertically bang in the middle of the parent.
+5. Scalable typography - Small incremental changes to the base font size, making text more "comfortable" to read across all device sizes.
+6. Stopping FOUC and page yank - Gently fade the page in when rendered, and fade out when navigated away from.  
+7. A grid system - An epicGrid system!
+8. Nice fonts - Open Sans and Libre Baskerville from Google fonts, as well as an icon font from icomoon.
+9. Custom resize events - Better performance by limiting the resize event from only being fired once every quarter of a second, and only when the width is resized.
 
-#### 1. Responsive Image Replacement
+##### Responsive Image Replacement
 
-[A simple script](https://github.com/Paul-Browne/ResImg.js) that swaps out images depending on the width of the image's *container* and the device's pixel ratio.
+Swap out images depending on the width of the image's *container* and the device's pixel ratio.
 You can specify as many, or as few breakpoints as you like. The placeholder image should be of sufficient size ie. 1024x768, but of low quality ~ 20kb. Having a placeholder image is optional.
 
 ```html
@@ -39,9 +47,9 @@ So, in the above example (assuming the `container` was the full screen);
 |ipad 3rd/4th gen - landscape|1024|2|world-massive|
 
 
-#### 2. Image Cover
+##### Better `<img>` Control
 
-[A simple script](https://github.com/Paul-Browne/imageCover.js) that mimics `background-size:cover; background-position:center center;` on `<img>` elements.
+Mimic `background-size:cover; background-position:center center;` on inline `<img>` elements.
 Just wrap your `<img>` in a container with the class `icovr` like so;
 
 ```html
@@ -52,9 +60,9 @@ Just wrap your `<img>` in a container with the class `icovr` like so;
 
 Will also work with responsive images. The container should have a height specified.
 
-#### 3. Full Screen Containers
+##### Fullscreen Containers
 
-[A simple script](https://github.com/Paul-Browne/fullScreen.js) that allows you to add a container that will have the same dimensions (height and width) as the viewport.
+Add a container that will have the same dimensions (height and width) as the viewport.
 
 ```html
 <div class="fullscreen">
@@ -63,10 +71,11 @@ Will also work with responsive images. The container should have a height specif
 ```
 
 Use the class `fullheight` if you want to create a container with only the same height as the viewport.
+The classes `fullscreen` and `icovr` can be used on the same container.
 
-#### 4. Middlize
+##### Middlize
 
-[A simple script](https://github.com/Paul-Browne/Middlize.js) that allows you to vertically and horizontally center any element within It's container.
+Vertically and horizontally center any element within It's container.
 
 ```html
 <div class="container">
@@ -76,24 +85,5 @@ Use the class `fullheight` if you want to create a container with only the same 
 
 To only vertically center the element use the class `vmid` instead. The container should have a height specified.
 
-#### 5. Scalable Typography
 
-[A simple script](https://github.com/Paul-Browne/typeScale) that tweeks the base font size and line-height depending on the width of the viewport (browser window).
-
-#### 6. FOUC and Page Yank
-
-[A simple script](https://github.com/Paul-Browne/FOUC-and-Page-Yank) that hides the page whilst its loading, then has it fade in when ready and fade out when navigated away from or refreshed.
-
-#### 7. A Simple Grid System
-
-[A simple script](https://github.com/Paul-Browne/epicGrid)
-
-add content here
-
-#### 8. Fonts via google and icomoon
-
-[Open Sans and libre baskerville](https://www.google.com/fonts/#UsePlace:use/Collection:Libre+Baskerville:400italic|Open+Sans:400,600) via google fonts. Open Sans - 400 is used for the main body text, Open Sans - 600 for bold/strong text and headlines (h1 - h6). Libre Baskerville - 400 italic is used for blockquotes, addresses, emphasis and anything else that requires italics.
-
-The iconfont was generated using [icomoon](https://icomoon.io/) It includes a whole bunch of commonly used symbols
-
-
+Here's a [demo](https://rawgit.com/Paul-Browne/BP-plus/master/index.html) illustrating all the above
