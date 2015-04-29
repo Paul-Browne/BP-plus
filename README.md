@@ -19,7 +19,7 @@ Built on top of the original [html5-boilerplate](https://github.com/h5bp/html5-b
    
 - **A grid system** - An [epicGrid](https://github.com/Paul-Browne/epicGrid) system!
    
-- **Better fonts** - Open Sans and Libre Baskerville from Google fonts, as well as an icon font from icomoon.
+- **Better fonts** - Open Sans and Libre Baskerville from Google fonts, as well as an icon font from [Font Awesome](http://fortawesome.github.io/Font-Awesome/).
    
 ---
 
