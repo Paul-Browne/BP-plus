@@ -16,8 +16,14 @@ Built on top of the original [html5-boilerplate](https://github.com/h5bp/html5-b
    
 - **A grid system** - An [epicGrid](https://github.com/Paul-Browne/epicGrid) system!
    
+####And More...
+
 - **Better fonts** - Open Sans and Libre Baskerville from Google fonts, as well as an icon font from [fontello](http://fontello.com/).
-   
+
+- **Favicon, Android, iOS icons and win tiles** - Full cross-browser icons generated using the fantastic [real favicon generator](http://realfavicongenerator.net/).
+
+- **Some basic SEO** - twitter summary card, facebook and open graph template out the box.
+ 
 ---
 
 ##### Responsive Image Replacement
@@ -27,12 +33,12 @@ You can specify as many, or as few breakpoints as you like. The placeholder imag
 
 ```html
 <div class="container"> <!-- optional, could just be the <body> -->
-  <img src = "i/world-placeholder.jpg" class="foo" id="bar" alt=""
-  data-src = "<400:i/world-small.jpg,
-              <800:i/world-medium.jpg,
-              <1200:i/world-large.jpg,
-              <1600:i/world-huge.jpg,
-              >1600:i/world-massive.jpg" />
+  <img src = "images/world-placeholder.jpg" class="foo" id="bar" alt=""
+  data-src = "<400:images/world-small.jpg,
+              <800:images/world-medium.jpg,
+              <1200:images/world-large.jpg,
+              <1600:images/world-huge.jpg,
+              >1600:images/world-massive.jpg" />
 </div>
 ```
 
@@ -61,7 +67,7 @@ Just wrap your `<img>` in a container with the class `icovr` like so;
 
 ```html
 <div class="icovr" id="bar">
-  <img src="i/a-picture.jpg" alt="" />
+  <img src="images/a-picture.jpg" alt="" />
 </div>
 ```
 
