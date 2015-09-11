@@ -188,6 +188,11 @@ span.initial{float:left;font-size:3.2em;margin:-0.05em 0.15em -0.3em 0;line-heig
 /* custom styles */
 /* ============= */
 
+#hello-world {
+	background:#rgba(0,0,0,0.4);
+	color:#fff;
+}
+
 /* add your styles here, or in /css/styles2 */
 
 /* ===== */
