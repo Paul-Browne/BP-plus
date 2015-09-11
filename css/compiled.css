@@ -1,0 +1,197 @@
+@-ms-viewport{width:device-width}
+
+/* ==== */
+/* fouc */
+/* ==== */
+
+#loader{background:#fff;position:fixed;width:100%;height:100%;z-index:999}
+#loader.loaded{-webkit-animation:fouc .5s .5s;animation:fouc .5s .5s;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards}
+#byebye{-webkit-animation:fouc .5s;animation:fouc .5s;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards}
+@-webkit-keyframes fouc{from{opacity:1}to{opacity:0}}
+@keyframes fouc{from{opacity:1}to{opacity:0}}
+
+/* ====== */
+/* resets */
+/* ====== */
+
+body,fieldset,figure,form{margin:0}
+fieldset,img,legend{border:0}
+pre,textarea{overflow:auto}
+fieldset,legend,td,th{padding:0}
+code,kbd,mark,samp,textarea{padding:.2em .5em;border-radius:4px}
+html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}
+audio,canvas,progress,video{display:inline-block;vertical-align:baseline}
+audio,canvas,iframe,img,svg,video{vertical-align:middle}
+audio:not([controls]){display:none;height:0}
+[hidden],template{display:none}
+a{background:0 0}
+a:active,a:hover{outline:0}
+abbr[title]{border-bottom:1px dotted;cursor:help}
+mark{background:#ff0!important;color:#000}
+small{font-size:75%}
+sub,sup{font-size:65%;line-height:0;position:relative;vertical-align:baseline;font-weight:400}
+sup{top:-.5em}
+sub{bottom:-.25em}
+img{height:auto;max-width:100%}
+svg:not(:root){overflow:hidden}
+hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}
+code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}
+button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}
+button{overflow:visible}
+button,select{text-transform:none}
+button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}
+button[disabled],html input[disabled]{cursor:default}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+input{line-height:normal}
+input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}
+input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}
+input[type=search]{-webkit-appearance:textfield}
+input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}
+*,*:after,*:before{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
+textarea{resize:vertical;min-height:120px;width:100%}
+optgroup{font-weight:400}
+table{border-collapse:collapse;border-spacing:0}
+ins,u{border-bottom:1px solid #4d4d4d;text-decoration:none}
+del,s,strike{text-decoration:line-through}
+code,kbd,mark,samp{background:#F1F1F1;font-size:85%}
+.hidden,.invisible{visibility:hidden}
+b,strong{font-weight:600}
+address,blockquote,cite,dfn,em,i,var{font-family:'Libre Baskerville',serif;font-weight:400;font-style:italic}
+q:after,q:before{font-size:1.15em}
+q:before{content:'\201c'}
+q:after{content:'\201d'}
+dd{margin:0 0 0 2.5em}
+menu,ol,ul{padding:0 0 0 1.5em}
+ol ol{list-style-type:lower-alpha}
+ol ol ol{list-style-type:lower-roman}
+::-moz-selection,::selection{background:#37F;color:#fff;text-shadow:none}
+th::-moz-selection,th::selection{background:0 0;color:inherit}
+p{-ms-word-break:break-all;-ms-word-wrap:break-all;word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;-webkit-hyphenate-before:2;-webkit-hyphenate-after:3;hyphenate-lines:3}
+
+/* ============== */
+/* helper classes */
+/* ============== */
+
+.clearfix:after,.clearfix:before{display:table;content:" "}
+.clearfix:after{clear:both}
+dl.inline dd{margin-left:0}
+dl.inline dd,dl.inline dt{display:inline-block}
+dl.inline dt:after{content:";"}
+dl.inline dd:after{content:"."}
+.center-text{text-align:center}
+.justify-text{text-align:justify}
+.center-image{display:block;margin:0 auto}
+.fw-300{font-weight:300!important}
+.fw-400{font-weight:400!important}
+.font-16 p,p.font-16{font-size:16px;line-height:24px}
+img.valign{margin-bottom:.4em;margin-top:.4em}
+.hidden{display:none!important}
+.fullscreen,.fullwidth{width:100%}
+.fullheight,.fullscreen,.icovr,.middlize,.vmid{overflow:hidden;position:relative;display:block}
+.middlize,.vmid{margin-top:0;margin-bottom:0}
+.middlize{margin:0 auto}
+.icovr>img{position:absolute;max-width:99999px}
+
+/* =============== */
+/* base typography */
+/* =============== */
+
+body{font-size:16px;line-height:1.4;color:#4d4d4d;font-family:'Open Sans',Helvetica,Arial;font-weight:400}
+address,blockquote,dl,figure,h1,h2,h3,h4,h5,h6,menu,ol,p,pre,table,table caption,ul{margin:0 0 1em;font-weight:inherit}
+a,a:visited{text-decoration:none;color:#37F}
+a:link,a:visited:link{-webkit-tap-highlight-color:rgba(0,0,0,.3)}
+.h1 a,.h1 a:visited,.h2 a,.h2 a:visited,.h3 a,.h3 a:visited,a.h1,a.h1:visited,a.h2,a.h2:visited,a.h3,a.h3:visited,h1 a,h1 a:visited,h2 a,h2 a:visited,h3 a,h3 a:visited{color:inherit}
+p a,p a:visited{outline:0;border-bottom:1px solid transparent}
+.h4 a:hover,.h4 a:visited:hover,a.h4:hover,a.h4:visited:hover,h4 a:hover,h4 a:visited:hover,p a:hover,p a:visited:hover{border-bottom:1px solid #37f}
+.h1,.h2,.h3,.h4,h1,h2,h3,h4{text-rendering:optimizelegibility;font-weight:600;line-height:inherit;}
+.h5,.h6,h5,h6{font-weight:400}
+.h1,h1{font-size:2.643em;margin:0 0 .5em}
+.h2,h2{font-size:2.073em;margin:0 0 .6em}
+.h3,h3{font-size:1.626em;margin:0 0 .7em}
+.h4,h4{font-size:1.275em;margin:0 0 .8em}
+.h5,h5{font-size:.784em;text-transform:uppercase;letter-spacing:1.5px}
+.h6,h6{font-size:.615em}
+blockquote{font-size:1.2em;margin-left:0}
+blockquote:before{float:left;content:'\e811';font-family:'iconfont';font-style:normal;font-size:3.5em;line-height:1em;margin:-0.05em 0.15em -0.3em 0;opacity:.35;padding:1px}
+blockquote .source{font-family:'Open Sans',helvetica,sans;font-style:normal}
+blockquote .source:before{content:'\2015\2015\00a0\00a0';opacity:.35}
+span.initial{float:left;font-size:3.2em;margin:-0.05em 0.15em -0.3em 0;line-height:1em;text-transform:uppercase}
+
+/* ======== */
+/* iconfont */
+/* ======== */
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('../fonts/iconfont.eot?70947239');
+  src: url('../fonts/iconfont.eot?70947239#iefix') format('embedded-opentype'),
+       url('../fonts/iconfont.woff?70947239') format('woff'),
+       url('../fonts/iconfont.ttf?70947239') format('truetype'),
+       url('../fonts/iconfont.svg?70947239#iconfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "iconfont";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+     
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+   font-size: 120%; 
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+.icon-twitter:before { content: '\e800'; }
+.icon-facebook:before { content: '\e801'; }
+.icon-comment:before { content: '\e802'; }
+.icon-calendar:before { content: '\e803'; }
+.icon-bookmark:before { content: '\e804'; }
+.icon-pencil:before { content: '\e805'; }
+.icon-heart:before { content: '\e806'; }
+.icon-warning:before { content: '\e807'; }
+.icon-circle-thin:before { content: '\e808'; }
+.icon-github:before { content: '\e809'; }
+.icon-gplus:before { content: '\e80a'; }
+.icon-linkedin:before { content: '\e80b'; }
+.icon-behance:before { content: '\e80c'; }
+.icon-mail:before { content: '\e80d'; }
+.icon-dribbble:before { content: '\e80e'; }
+.icon-phone:before { content: '\e80f'; }
+.icon-user:before { content: '\e810'; }
+.icon-quote:before { content: '\e811'; }
+.icon-info:before { content: '\e812'; }
+.icon-cancel:before { content: '\e813'; }
+.icons a:hover{border-bottom:0;}
+
+/* ============= */
+/* custom styles */
+/* ============= */
+
+/* add your styles here, or in /css/styles2 */
+
+/* ===== */
+/* print */
+/* ===== */
+
+@media print{blockquote,img,pre,tr{page-break-inside:avoid}*,*:after,*:before{background:0 0!important;color:#000!important;box-shadow:none!important;text-shadow:none!important}a,a:visited{text-decoration:underline}a[href]:after{content:" (" attr(href)")"}abbr[title]:after{content:" (" attr(title)")"}a[href^="#"]:after,a[href^="javascript:"]:after{content:""}blockquote,pre{border:1px solid #999}thead{display:table-header-group}img{max-width:100%!important}h2,h3,p{orphans:3;widows:3}h2,h3{page-break-after:avoid}}
