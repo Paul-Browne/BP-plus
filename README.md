@@ -1,6 +1,3 @@
-![alt text](https://raw.githubusercontent.com/Paul-Browne/BP-plus/master/i/bpplus.jpg)
-
-
 ### Boilerplate +
 
 Built on top of the original [html5-boilerplate](https://github.com/h5bp/html5-boilerplate) **plus** a few scripts and styles which make life easier. At a cost of just over `2kb` these additions enable the following;
