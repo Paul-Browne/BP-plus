@@ -100,6 +100,7 @@ img.valign{margin-bottom:.4em;margin-top:.4em}
 }
 .icovr {
   position:absolute;
+  max-width:none;
 }
 
 /* =============== */
