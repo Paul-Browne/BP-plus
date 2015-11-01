@@ -91,17 +91,7 @@ img.valign{margin-bottom:.4em;margin-top:.4em}
 .fullheight,.fullscreen,.middlize,.vmid{overflow:hidden;position:relative;display:block}
 .middlize,.vmid{margin-top:0;margin-bottom:0}
 .middlize{margin:0 auto}
-.icovr-cont {
-  overflow:hidden;
-  position:absolute;
-  width:100%;
-  height:100%;
-  z-index:-1;
-}
-.icovr {
-  position:relative;
-  max-width:none;
-}
+.icovr>img{position:absolute;max-width:none}
 
 /* =============== */
 /* base typography */
