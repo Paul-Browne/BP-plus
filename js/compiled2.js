@@ -13,7 +13,7 @@
         }), b;
     }
 
-    function helperize() {
+    helperize = function() {
         var a = window.innerWidth,
             b = document.getElementsByTagName("body")[0].style,
             c = document.querySelectorAll(".fullscreen,.fullheight"),
@@ -58,9 +58,9 @@
                 l.left = (f - i / (j / g)) / 2 + "px";
             }
         }
-    }
+    };
 
-    function ResImg() {
+    ResImg = function() {
         var images = document.getElementsByTagName('img');
         if (images.length === 0) {
             return;
@@ -119,7 +119,7 @@
                     break;
                 }
             }
-            image.addEventListener("load", helperize());
+            image.addEventListener("load", helperize);
         }
     }
 
