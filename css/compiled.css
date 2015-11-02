@@ -88,10 +88,11 @@ dl.inline dd:after{content:"."}
 img.valign{margin-bottom:.4em;margin-top:.4em}
 .hidden{display:none!important}
 .fullscreen,.fullwidth{width:100%}
-.fullheight,.fullscreen,.icovr,.middlize,.vmid{overflow:hidden;position:relative;display:block}
+.fullheight,.fullscreen,.icovr,.middlize,.vmid{position:relative;display:block}
 .middlize,.vmid{margin-top:0;margin-bottom:0}
 .middlize{margin:0 auto}
 .icovr>img{position:absolute;max-width:99999px}
+.icovr{overflow:hidden}
 
 /* =============== */
 /* base typography */
