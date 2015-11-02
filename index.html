@@ -72,7 +72,7 @@
         <!--[if lt IE 9]><script src="https://cdn.rawgit.com/aFarkas/html5shiv/master/dist/html5shiv.min.js"></script><![endif]-->
         
         <!-- add you scripts in here -->
-        <script src="js/compiled.js"></script>
+        <script src="js/compiled2.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 8]><h1 class="center-text">Using an outdated browser makes your computer unsafe. <a href="http://browsehappy.com/">Upgrade your browser</a></h1><![endif]-->
@@ -80,8 +80,8 @@
         <!-- avoiding FOUC -->
         <script>!function(){var a=document.getElementsByTagName("body")[0],b=document.createElement("div");a.appendChild(b),b.id="loader",b.className="loading";var c=document.getElementById("loader");window.onload=function(){c.className="loaded",setTimeout(function(){a.removeChild(c)},1e3)},window.onbeforeunload=function(){a.id="byebye"}}();</script>
 
-        <div class="fullscreen icovr">
-            <img src = "images/world-placeholder.jpg"
+        <div class="fullscreen">
+            <img class="icovr" src = "images/world-placeholder.jpg"
             data-src = "<400:images/world-small.jpg,
                         <800:images/world-medium.jpg,
                         <1200:images/world-large.jpg,
@@ -92,9 +92,12 @@
                 <p>resize your browser</p>
             </div>
         </div>
+        
+        <div class="xx-col-3-5"><p>hello world</p></div>
+        <div class="xx-col-2-5"><p>hello world</p></div>
 
         <script>
-            init();
+            colymn();
         </script>
         
         <!-- google analytics, uncomment if needed, and change the UA-XXXXX-X -->
