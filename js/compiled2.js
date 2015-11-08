@@ -174,7 +174,7 @@
         var mmm = 0;
         for (var x = 0; x < c.length; x++) {
             
-            if( !svgg(all[i]) ){
+            if( !svgg(c[x]) ){
                 
                 var q = c[x].children;
                 
