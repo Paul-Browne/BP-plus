@@ -121,7 +121,7 @@
             }
             image.addEventListener("load", helperize);
         }
-    }
+    };
 
     colymn = function() {
         var a = window.innerWidth,
