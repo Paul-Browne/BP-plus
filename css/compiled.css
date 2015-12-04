@@ -123,7 +123,7 @@ p a,p a:visited{outline:0;border-bottom:1px solid transparent}
 .h5,h5{font-size:.784em;text-transform:uppercase;letter-spacing:1.5px}
 .h6,h6{font-size:.615em}
 blockquote{font-size:1.1em;margin-left:0}
-blockquote:before{float:left;content:'\e81b';font-family:'iconfont';font-style:normal;font-size:3.5em;line-height:1em;margin:-0.05em 0.15em -0.3em 0;opacity:.35;padding:1px}
+blockquote:before{float:left;content:'\e81f';font-family:'iconfont';font-style:normal;font-size:3.5em;line-height:1em;margin:-0.05em 0.15em -0.3em 0;opacity:.35;padding:1px}
 blockquote .source{font-family:'Open Sans',helvetica,sans;font-style:normal}
 blockquote .source:before{content:'--\00a0\00a0';opacity:.35;}
 span.initial{float:left;font-size:3.2em;margin:-0.05em 0.15em -0.3em 0;line-height:1em;text-transform:uppercase}
@@ -145,17 +145,20 @@ span.initial{float:left;font-size:3.2em;margin:-0.05em 0.15em -0.3em 0;line-heig
 }
 
  
- [class^="icon-"]:before, [class*=" icon-"]:before {
+span[title="Verified Account"]:before,
+[class*="icon-"]:before,
+nav .more:before{
   font-family: "iconfont";
   font-style: normal;
   font-weight: normal;
   speak: none;
- 
   display: inline-block;
   text-decoration: inherit;
   width: 1em;
   margin-right: .2em;
   text-align: center;
+  -webkit-transition: .3s all;
+  transition: .3s all;
   /* opacity: .8; */
  
   /* For safety - reset parent styles, that can break glyph codes*/
